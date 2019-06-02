@@ -3469,7 +3469,7 @@ html:not(.webkit-line-clamp) .review__desc::after {
 }
 
 @media only screen and (max-width: 800px) {
-  .startscreen__wrap {
+  .startscreen-main .startscreen__wrap {
     margin: 80px auto;
   }
 }
