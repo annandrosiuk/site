@@ -664,6 +664,10 @@ button {
     font-size: 32px;
     line-height: 1.2;
   }
+
+  .title__section-margin{
+    margin-top: 40px;
+  }
 }
 
 .icon-f {
@@ -3464,6 +3468,12 @@ html:not(.webkit-line-clamp) .review__desc::after {
   margin: 0 auto;
 }
 
+@media only screen and (max-width: 800px) {
+  .startscreen__wrap {
+    margin: 80px auto;
+  }
+}
+
 .main-logo{
   position: absolute;
   top: -150px;
@@ -3481,6 +3491,18 @@ html:not(.webkit-line-clamp) .review__desc::after {
   position: absolute;
   top: -150px;
   right: 40px;
+}
+
+@media only screen and (max-width: 768px) {
+  .main-logo{
+    top: -220px; 
+    left: 30px;
+  }
+  
+  .info-buttons{
+    top: -220px;
+    right: 30px;
+  }
 }
 
 .startscreen .title__section {
