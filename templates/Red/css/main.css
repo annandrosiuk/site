@@ -6,7 +6,7 @@
  * 2. Prevent adjustments of font size after orientation changes in
  *    IE on Windows Phone and in iOS.
  */
-html {
+ html {
   line-height: 1.15;
   /* 1 */
   -ms-text-size-adjust: 100%;
@@ -2985,7 +2985,7 @@ a.map__desc:hover {
 }
 
 .review {
-  margin: 50px 0 80px;
+  margin: 50px 0 0px;
   background-color: #fff;
 }
 
@@ -3468,8 +3468,8 @@ html:not(.webkit-line-clamp) .review__desc::after {
   position: absolute;
   top: -150px;
   left: 40px;
-  width: 70px;
-  height: 70px;
+  width: 90px;
+  height: 90px;
 
   background: url("../images/content/logo.jpg");
     background-position: center center;
