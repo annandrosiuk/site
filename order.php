@@ -1,7 +1,7 @@
 ﻿<?php
 // ----------------------------конфигурация-------------------------- //
 
-$adminemail="Englishschoolwise@gmail.com";  // e-mail админа
+$adminemail="ann.androsyuk@gmail.com";  // e-mail админа
 
 
 $date=date("d.m.y"); // число.месяц.год
